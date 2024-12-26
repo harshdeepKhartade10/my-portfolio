@@ -7,7 +7,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
     const contact = e.target.contact.value;
   
     try {
-        const response = await fetch('http://localhost:4000/submit-contact', {
+        const response = await fetch('https://my-portfolio-harshdeep-khartade.vercel.app/', {
             method: 'POST',
         headers: {
           'Content-Type': 'application/json'
